@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+nav{
+    display: flex;
+    height: 4em;
+    margin-bottom: 4em;
+    box-shadow: 0 0 0.2em #a6a8aa;
+}
+
+#logo{
+    height: 4em;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo > img{
+    width: 9em;
+}
+
+#opcoes-centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 50%;
+}
+
+#opcoes-centro > a{
+    color: #193441;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#opcoes-centro > a:hover{
+    color: #5a5f63;
+}
+
+#user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+#user > img{
+    width: 2.2em;
+    height: 2.2em;
+}
+
+#user > img:hover{
+    cursor: pointer;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-principal > h1{
+    color: #193441;
+    margin-bottom: 2.5em;
+}
+
+#entrar-facebook {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 0.8em;
+    width: 15em;
+    background-color: #3b5998;
+    border-radius: 0.3em;
+    margin-bottom: 2em;
+}
+
+#entrar-facebook > img{
+    width: 1.8em;
+}
+
+#entrar-facebook > p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+form{
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+}
+
+form > label{
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #9aa8b2;
+    margin-bottom: 0.5em;
+}
+
+form > input{
+    border: 1px solid #c9d6df;
+    border-radius: 0.3em;
+    padding: 0.8em;
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+form > button{
+    background-color: #ef4136;
+    color: #fff;
+    padding: 0.7em;
+    border-radius: 0.3em;
+    margin-top: 1em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+form > button:hover{
+    cursor: pointer;
+}
+
+.conteudo-principal > a{
+    color: #52616b;
+    font-weight: 700;
+    font-size: 0.8em;
+    margin-top: 1.5em;
+}
+
+#ultima-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.1em;
+    margin-bottom: 10em;
+}
+
+#ultima-section > a{
+    color: #52616b;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+.conteudo-principal > a{
+
+    color: white;
+}
+
+.botao-ver-clientes {
+    position: absolute;
+    top: 63em; 
+    right: 58em; 
+    padding: 0.625em 1.25em;
+    background-color: #52616b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botao-ver-clientes:hover {
+    background-color: black;
+}
